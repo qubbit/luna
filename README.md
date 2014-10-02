@@ -1,0 +1,4 @@
+terracotta
+==========
+
+A Ghost theme
