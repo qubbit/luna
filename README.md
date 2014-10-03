@@ -1,4 +1,4 @@
-terracotta
+Terracotta
 ==========
 
 A Ghost theme
