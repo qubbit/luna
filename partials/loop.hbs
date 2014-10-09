@@ -4,22 +4,14 @@
 </div>
 
 {{! This is the post loop - each post will be output using this markup }}
+<ul class="posts">
 {{#foreach posts}}
-<article class="{{post_class}}">
-    <header class="post-header">
-        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
-        {{author}}
-        {{tags prefix=" on "}}
+    <li>
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-    </footer>
-</article>
+        <a class="post-title" href="{{url}}">{{{title}}}</a>
+    </li>
 {{/foreach}}
+</ul>
 
 {{! Previous/next page links - displayed on every page }}
 {{pagination}}
