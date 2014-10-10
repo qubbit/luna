@@ -205,7 +205,7 @@ h4, h5, h6 {
 	margin: 0 0 0.4em 0;
 	font-family: "Roboto Slab", sans-serif;
 	color: #20abec;
-	font-weight: 500;
+	font-weight: 300;
 }
 
 h1 {
@@ -692,6 +692,7 @@ margin on the iframe, cause it breaks stuff. */
 .no-cover .page-title {
 	font-family: "Roboto Slab", sans-serif;
 	color: #fff;
+	font-weight: 300;
 }
 
 .no-cover .page-description {
