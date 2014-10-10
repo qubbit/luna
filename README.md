@@ -1,4 +1,4 @@
-Terracotta
+Luna
 ==========
 
-A Ghost theme
+A minimal theme for Ghost based on Casper
